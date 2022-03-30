@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>React App</title>
+    <meta charset="utf-8">
+    <script defer src="ej.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script defer src="sweetAlert.js"></script>
+    <link rel="stylesheet" href="ej.css">
+</head>
+<body>
+<div class="root">
+<div class="contenedor">
+    <header id="title">
+        <h1>Leaderboard</h1>
+        </header>
+        <Input type="text" class="search" onkeyup = "search()" placeholder="search for names..."></Input>
+        <div class="lds-facebook"><div></div><div></div><div></div></div>
+    <table class="table_1">
+        <thead>
+            <b><tr>
+            <th>id</th>
+            <th>rank</th>
+            <th>points</th>
+            <th>name</th>
+            <th>age</th>
+            </tr></b>
+        </thead>
+        <tbody  class="tbody">
+        </tbody>
+    </table>
+</div>
+</div>
+</body>
+</html>
